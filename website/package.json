@@ -14,5 +14,7 @@
     "parcel-bundler": "^1.12.3",
     "typescript": "^3.6.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@cajotafer/simplemediaplayer": "^1.0.0"
+  }
 }

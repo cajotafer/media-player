@@ -1,7 +1,7 @@
-import MediaPlayer from "./MediaPlayer";
-import AutoPlay from "./plugins/AutoPlay";
-import AutoPause from "./plugins/AutoPause";
-import Ads from "./plugins/Ads";
+import MediaPlayer from "@cajotafer/simplemediaplayer";
+import AutoPlay from "@cajotafer/simplemediaplayer/lib/plugins/AutoPlay";
+import AutoPause from "@cajotafer/simplemediaplayer/lib/plugins/AutoPause";
+import Ads from "@cajotafer/simplemediaplayer/lib/plugins/Ads";
 
 const $video = document.querySelector("video");
 const plugins = [new AutoPlay(), new AutoPause(), new Ads()];
