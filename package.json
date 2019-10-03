@@ -1,16 +1,20 @@
 {
   "name": "@cajotafer/simplemediaplayer",
   "version": "1.1.0",
-  "description": "",
+  "description": "Dynamic and light Media Player that accepts plugins",
   "main": "lib/MediaPlayer.js",
+  "repository": "git@github.com:cajotafer/media-player.git",
   "scripts": {
     "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Cajotafer",
-  "license": "ISC",
+  "author": "Cajotafer <hello@cajotafer.com>",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^3.6.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
